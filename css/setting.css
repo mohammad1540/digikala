@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: digikala;
+}
+@font-face {
+    font-family: digikala;
+    src: url(../IranYekan/IRANYekanRegular.ttf);
+}

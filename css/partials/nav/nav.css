@@ -1,0 +1,498 @@
+nav {
+  width: 100%;
+  height: 40px;
+  border-bottom: solid;
+  color: whitesmoke;
+  direction: rtl;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 30px;
+  margin-right: 25px;
+  opacity: 1;
+  color: rgba(4, 4, 4, 0.752);
+}
+nav > div.menu1:hover {
+  border-bottom: solid;
+  color: red;
+}
+nav > div.menu1 > div.matn1 > a.daste1 {
+  color: black;
+  opacity: 1;
+  font-size: small;
+  font-weight: lighter;
+}
+nav > div.menu1 {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  border-bottom: solid;
+  color: whitesmoke;
+  right: 10px;
+  transition: all 300ms linear;
+}
+nav > div.menu1 > div.matn1 {
+  width: 130px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+nav > div.menu1 > div.matn1 > div.kalaha {
+  width: 80vw;
+  height: 500px;
+  background-color: white;
+  position: relative;
+  margin-top: 35px;
+  z-index: 20;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  display: none;
+
+}
+nav > div.menu1 > div.matn1:hover > div.kalaha {
+  display: block;
+  overflow:auto;
+
+}
+nav > div.menu1 > div.matn1 > div.kalaha > div.aghlam {
+  width: 190px;
+  height: 50px;
+  background-color: #ecebeb;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  padding: 0 10px;
+  overflow:auto;
+
+}
+nav > div.menu1 > div.matn1 > div.kalaha > div.aghlam > div.neveshte {
+  width: 84.5%;
+  height: 600px;
+
+  position: absolute;
+  left: 0px;
+  top: 0;
+  display: none;
+  overflow:auto;
+
+}
+nav > div.menu1 > div.matn1 > div.kalaha > div.aghlam:hover > div.neveshte {
+  display: block;
+
+
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-flow: column;
+  padding-top: 10px;
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.bala {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.bala
+  > div.matn {
+  height: 30px;
+  display: flex;
+  justify-content: left;
+  padding-left: 13px;
+  
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.bala
+  > div.matn
+  > a {
+  color: #19bfd3;
+  display: flex;
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.bala
+  > div.svg {
+  width: 15px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.bala
+  > img {
+  margin-top: 10px;
+  width: 10px;
+  height: 10px;
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.paein {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.paein
+  > div.box {
+  width: 25%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.paein
+  > div.box
+  > a.red {
+  display: flex;
+  font-size: 14px;
+  color: black;
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.paein
+  > div.box
+  > a {
+  font-size: 12px;
+  color: #9e9fb1;
+  line-height: 45px;
+  transition: all 100ms linear;
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.paein
+  > div.box
+  > a:hover {
+  color: #ee384e;
+}
+nav
+  > div.menu1
+  > div.matn1
+  > div.kalaha
+  > div.aghlam
+  > div.neveshte
+  > div.neveshte2
+  > div.paein
+  > div.box
+  > a.red
+  > img {
+  width: 15px;
+  height: 15px;
+  margin-top: 17px;
+  color: black;
+}
+nav > div.menu1 > div.matn1 > div.kalaha > div.aghlam > img {
+  margin-left: 4px;
+  color: black;
+}
+nav > div.menu1 > div.matn1 > div.kalaha > div.aghlam > a {
+  font-size: small;
+  margin-right: -1px;
+}
+nav > div.menu1 > div.matn1 > div.kalaha > div.aghlam:hover > a {
+  font-size: small;
+  color: #ee384e;
+}
+nav > div.menu1 > div.matn1 > div.kalaha > div.aghlam:hover {
+  background-color: white;
+  border-bottom: solid 0.1px;
+  color: rgb(235, 235, 235);
+  border-top: solid 0.1px;
+}
+nav > div.menu1 > div.matn1 > div.svg1 > a > img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 10px);
+  color: black;
+}
+nav > div.menu1 > div.matn1 > span {
+  border: solid 0.1px;
+  position: absolute;
+  left: 0;
+  color: rgb(229, 226, 226);
+  height: 16px;
+  top: calc(50% - 8px);
+}
+nav > div.menu2 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  border-bottom: solid;
+  color: whitesmoke;
+  right: 150px;
+  transition: all 300ms linear;
+}
+nav > div.menu2:hover {
+  border-bottom: solid;
+  color: red;
+}
+nav > div.menu2 > div.matn2 > div.svg2 > a > img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 10px);
+}
+nav > div.menu2 > div.matn2 {
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+nav > div.menu3 {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  border-bottom: solid;
+  color: whitesmoke;
+  right: 260px;
+  transition: all 300ms linear;
+}
+nav > div.menu3:hover {
+  border-bottom: solid;
+  color: red;
+}
+nav > div.menu3 > div.matn3 {
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+nav > div.menu3 > div.matn3 > div.svg3 > a > img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 10px);
+}
+nav > div.menu4 {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  border-bottom: solid;
+  color: whitesmoke;
+  right: 360px;
+  transition: all 300ms linear;
+}
+nav > div.menu4:hover {
+  border-bottom: solid;
+  color: red;
+}
+nav > div.menu4 > div.matn4 {
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+nav > div.menu4 > div.matn4 > div.svg4 > a > img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 10px);
+}
+nav > div.menu5 {
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  border-bottom: solid;
+  color: whitesmoke;
+  right: 455px;
+  transition: all 300ms linear;
+}
+nav > div.menu5:hover {
+  border-bottom: solid;
+  color: red;
+}
+nav > div.menu5 > div.matn5 {
+  width: 110px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+nav > div.menu5 > div.matn5 > div.svg5 > a > img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 10px);
+}
+nav > div.menu6 {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  border-bottom: solid;
+  color: whitesmoke;
+  right: 580px;
+  transition: all 300ms linear;
+}
+nav > div.menu6:hover {
+  border-bottom: solid;
+  color: red;
+}
+nav > div.menu6 > div.matn6 {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+nav > div.menu6 > div.matn6 > div.svg6 > a > img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 10px);
+}
+nav > div.menu6 > div.matn6 > span {
+  border: solid 0.1px;
+  position: absolute;
+  left: 0;
+  color: rgb(229, 226, 226);
+  height: 16px;
+  top: calc(50% - 8px);
+}
+nav > div.menu7 {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  border-bottom: solid;
+  color: whitesmoke;
+  right: 740px;
+  transition: all 300ms linear;
+}
+nav > div.menu7:hover {
+  border-bottom: solid;
+  color: red;
+}
+nav > div.menu7 > div.matn7 {
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+nav > div.menu7 > div.matn7 > a.daste2 {
+  margin-right: 5px;
+}
+nav > div.menu8 {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  border-bottom: solid;
+  color: whitesmoke;
+  right: 820px;
+  transition: all 300ms linear;
+}
+nav > div.menu8:hover {
+  border-bottom: solid;
+  color: red;
+}
+nav > div.menu8 > div.matn8 {
+  width: 130px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+nav > div.menu8 > div.matn8 > a.daste3 {
+  margin-right: 5px;
+}
+nav > div.shahr {
+  width: 170px;
+  height: 40px;
+
+  position: absolute;
+  left: 20px;
+}
+nav > div.shahr > div.shahr1 {
+  width: 170px;
+  height: 30px;
+
+  position: absolute;
+  top: calc(50% - 15px);
+}
+nav > div.shahr > div.shahr1 > div.svg {
+  width: 24px;
+  height: 24px;
+
+  position: absolute;
+  right: 0;
+  top: calc(50% - 12px);
+}
+nav > div.shahr > div.shahr1 > a.shahr {
+  opacity: 1;
+  color: black;
+  font-size: 11px;
+}
